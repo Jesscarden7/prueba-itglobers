@@ -1,8 +1,10 @@
+import styles from "./shopButton.module.css"
+
 function ShopButton() {
     return ( 
         <div>
-            <button>
-                SHOP
+            <button className={styles.button}>
+                S H O P
             </button>
         </div>
      );

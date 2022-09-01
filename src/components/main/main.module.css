@@ -1,0 +1,17 @@
+.mainContainer {
+    height: 795px;
+    background-image: url("../../../public/images/home-image.jpg");
+    background-size: cover;
+    padding: 48px 40px;
+    color: white;
+}
+
+.shopContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 50px;
+    height: 100%;
+    text-align: center;
+}
