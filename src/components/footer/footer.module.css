@@ -1,3 +1,70 @@
 .footer {
-    display: flex;
+  display: flex;
+  border-top: 4px solid #ebebeb;
+  padding: 10px;
+  box-shadow: 0 -5px 5px -5px #ebebeb;
+}
+
+.logo {
+  width: 20%;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.divider {
+  border-left: 1px solid #8d8d8d;
+  height: 120px;
+}
+
+.products {
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.options {
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 35px;
+}
+
+.backUp {
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 35px;
+}
+
+.security {
+  display: flex;
+}
+
+.security span {
+    font-size: 12px;
+    color: #505050;
+}
+
+.socialMedia {
+  width: 20%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0px 35px;
+}
+
+.dividerBottom {
+    border-top: 1px solid #8d8d8d;
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.bottomContainer {
+    padding: 0 40px;
+}
+
+.bottomContainer p {
+    font-size: 14px;
+    color: #a3a3a3;
+    font-weight: 600;
 }
